@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- code here -->
     <div class="header">
         <p class="name-plate">Peyton Schaefer</p>
         <div class="contact">
@@ -26,27 +25,31 @@
     </div>
     <div class="section">
         <p class="section-header">Experience</p>
-        <p class="section-header">Digital Corps Development Team</p>
+        <p class="inner-section-header">Accutech Systems Corporation</p>
         <div class="bullet-section">
-            <p class="bullet-header">Ball State University</p>
-            <p class="bullet-title">Specialist • 12/2022 - 05/2023</p>
+            <p class="bullet-title">Software Developer I • 06/2023 - present</p>
             <ul>
-                <li>Collaborated with a large multidisciplinary staff dedicated to building projects for the Ball State colleges and various external customers.</li>
+                <li>Collaborated with other developers, project managers, our quality assurance team, and clients to gather requirements and ensure timely delivery of solutions, demonstrating strong interpersonal and communication skills.</li>
+                <li>Developed and maintained software functionalities to read files, store and retrieve data from our database, and facilitate data export to clients with an emphasis on precision, accuracy, and performance.</li>
+                <li>Advised and mentor a group of college students engaged in senior projects, providing guidance on project execution, career development, and time management strategies.</li>
+                <li>Engaged in AGILE development methodology through client validated work going through many rounds of requirement gathering, development, and testing.</li>
+            </ul>
+        </div>
+        <p class="inner-section-header">Digital Corps</p>
+        <div class="bullet-section">
+            <p class="bullet-title">Developer • 12/2021 - 05/2023</p>
+            <ul>
+                <li>Coordinated with a large multidisciplinary staff dedicated to building projects for the Ball State colleges and various external customers.</li>
                 <li>Mentored new hires and facilitate a safe and inclusive learning/growing environment.</li>
                 <li>Practiced industry standards such as proper git flow and agile development.</li>
-            </ul>
-            <p class="bullet-title">Apprentice • 12/2021 - 12/2022</p>
-            <ul>
-                <li>Learned and utilized many web technologies including React, TypeScript, and CSS to create responsive, user-friendly web apps.</li>
                 <li>Effectively communicated technical information to non-technical team members in a clear and concise manner.</li>
             </ul>
         </div>
-        <p class="section-header">Computer Science Teaching Assistant</p>
+        <p class="inner-section-header">Ball State University</p>
         <div class="bullet-section">
-            <p class="bullet-header">Ball State University</p>
-            <p class="bullet-title">08/2021 - 06/2022</p>
+            <p class="bullet-title">Computer Science Teaching Assistant • 08/2021 - 06/2022</p>
             <ul>
-                <li>Assisted CS 120 students in classwork, labs, and projects in Python.</li>
+                <li>Assisted Intro To Computer Science students in classwork, labs, and projects in Python and Java.</li>
                 <li>Reinforced programming foundations and etiquette to introductory students in order to build skills for use in upper level CS classes.</li>
             </ul>
         </div>
@@ -54,20 +57,21 @@
     <div class="section">
         <p class="section-header">Projects</p>
         <div class="bullet-section">
-            <p class="bullet-header">EstateVault - Vue.js, .Net, and Vitest</p>
-            <p class="bullet-title">An all-in-one estate management tool build in collaboration with Cheetah Inc.</p>
+            <p class="inner-section-header">Accutech Terminal -.Net, CSHTML, Hangfire</p>
+            <p class="bullet-title">Job processing engine for Accutech Systems Corporation</p>
+            <ul>
+                <li>Worked with an established team with a 10+ year old project to deliver custom financial solutions to clients mainly through data import and export.</li>
+                <li>Employ AGILE to get client's solutions testing in their environment before tight deadlines.</li>
+                <li>Wrote .Net code and SQL stored procedures built to handle thousands of reads and writes to our database and validate files with strict financial requirements; all on a schedule that clients rely on.</li>   
+            </ul>
+        </div>
+        <div class="bullet-section">
+            <p class="inner-section-header">EstateVault - Vue.js, .Net, and Vitest</p>
+            <p class="bullet-title">All-in-one estate management tool for Accutech Systems Corporation</p>
             <ul>
                 <li>Took charge of communication with our client in order to provide timely responses and schedule meetings.</li>
                 <li>Built a responsive single page webapp that allows for users to create accounts, upload documents, create networks of other users, and more.</li>
                 <li>Spearheaded frontend functionality and was heavily involved in the ideation for the backend, namely creating various API routes and designing our PostgreSQL database.</li>   
-            </ul>
-        </div>
-        <div class="bullet-section">
-            <p class="bullet-header">Advising Support Dashboard - AdonisJS</p>
-            <p class="bullet-title">A server-side project built for Ball State advisors to monitor student academic well-being.</p>
-            <ul>
-                <li>Worked with server-side rendered code and learned how to properly pass data from controllers to views.</li>
-                <li>Researched and implemented accessibility standards to produce software that is optimized for screen readers.</li>
             </ul>
         </div>
     </div>
@@ -77,4 +81,48 @@
     </div>
 	<script src="index.js"></script>
   </body>
+
+  <style>
+    *{
+        margin: 0;
+    }
+    .header {
+        border-left: 3px solid black;
+        padding-left: 34px;
+    }
+    p.name-plate {
+        font-size: 20pt;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    .contact p {
+        margin: 0;
+        font-size: 10pt;
+    }
+    p.section-header {
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    p.section-text {
+        margin: 5px 0px;
+    }
+    .section {
+        border-top: 1px solid black;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    li{
+        font-size: 10pt;
+    }
+    p.inner-section-header {
+        font-weight: 700;
+    }
+    ul{
+        padding-bottom: 5px;
+    }
+    p.bullet-title{
+        font-size: 10pt;
+        font-style: italic;
+    }
+  </style>
 </html>
